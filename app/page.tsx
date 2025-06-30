@@ -76,7 +76,7 @@ export default function Portfolio() {
       />
 
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+      <nav className="fixed font-bree-serif top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-24">
             <motion.div
@@ -149,7 +149,7 @@ export default function Portfolio() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight"
+                className="text-2xl font-press-start-2p  md:text-4xl font-bold text-gray-900 leading-tight"
               >
                 Bringing Stories to <span className="text-red-800">Life</span> Through{" "}
                 <span className="text-sky-600">Visual</span> Storytelling
@@ -274,7 +274,7 @@ export default function Portfolio() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6">Who I Am</h2>
+            <h2 className="text-2xl font-press-start-2p  md:text-4xl font-bold text-gray-900 mb-6">Who I Am</h2>
             <div className="w-20 h-1 bg-gradient-to-r from-red-800 to-sky-600 mx-auto mb-8"></div>
           </motion.div>
 
@@ -341,7 +341,7 @@ export default function Portfolio() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6">Personal Moments</h2>
+            <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6 font-press-start-2p ">Personal Moments</h2>
             <div className="w-20 h-1 bg-gradient-to-r from-red-800 to-sky-600 mx-auto mb-8"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               A glimpse into my life beyond work - moments that matter, places I've been, and memories I cherish.
@@ -383,7 +383,7 @@ export default function Portfolio() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">My Journey</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 font-press-start-2p ">My Journey</h2>
             <div className="w-20 h-1 bg-gradient-to-r from-red-800 to-sky-600 mx-auto mb-8"></div>
           </motion.div>
 
@@ -458,7 +458,7 @@ export default function Portfolio() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Let's Connect</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 font-press-start-2p ">Let's Connect</h2>
             <div className="w-20 h-1 bg-gradient-to-r from-red-800 to-sky-600 mx-auto mb-8"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               I'd love to hear from you! Whether you want to chat about visual storytelling, Nepal, or just say hello -
